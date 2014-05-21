@@ -20,9 +20,9 @@ p {
 
 .info {
 	width: 175px;
-	position: fixed;
+	position: absolute;
 	left: 370px;
-	top: 25px;
+	top: 100px;
 }
 
 .list {
