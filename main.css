@@ -42,6 +42,13 @@ p {
 	list-style-position: inside;
 }
 
+.list1 .item1 {
+	text-decoration: line-through;
+	list-style: disc;
+	list-style-position: inside;
+	color: rgba(0,0,0,0.3);
+}
+
 .list3 {
 	display: none;
 }
