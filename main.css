@@ -1,0 +1,67 @@
+body {
+	width: 1200px;
+	height: 900px;
+	min-width: 1200px;
+	min-height: 900px;
+	background: url('images/background.jpeg') no-repeat;
+	background-size: auto;
+	font-family: "Comic Sans MS";
+}
+
+h2 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+p {
+	margin-top: 10px;
+}
+
+.info {
+	width: 175px;
+	position: fixed;
+	left: 370px;
+	top: 25px;
+}
+
+.list {
+	height: 140px;
+	width: 175px;
+	background-color: rgba(255,255,0,0.5);
+	position: relative;
+	left: 625px;
+	top: 100px;
+	margin-top: 10px;
+	color: blue;
+}
+
+.list li {
+	margin-left: 10px;
+	list-style: circle;
+	list-style-position: inside;
+}
+
+.list3 {
+	display: none;
+}
+
+.list4 {
+	display: none;
+}
+
+.item7 {
+	display: none;
+}
+
+.item6 {
+	display: none;
+}
+
+.item5 {
+	display: none;
+}
+
+.item4 {
+	display: none;
+}
