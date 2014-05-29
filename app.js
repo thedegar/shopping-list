@@ -12,7 +12,7 @@ $(document).ready(function() {
 	$(document).on("dblclick", ".new", function() {
 		$(this).remove();
 		var list_height = $(".list").height();
-		//If the counter is over 38 do not decrease height
+		//If the counter is over 37 do not decrease height
 		if(counter > 37){
 		}
 		//If the counter is greater than 5 (but less than 37) then remove 16px
@@ -60,6 +60,7 @@ $(document).ready(function() {
 				$("#add-list").val("");
 				new_list_name = "";
 				$(".empty").hide();
+				$("#add-item").select();
 			}
 			//If the entry is an item, create the item
 			else if(new_item_name!=""){
