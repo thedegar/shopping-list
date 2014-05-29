@@ -34,41 +34,18 @@ p {
 	top: 100px;
 	margin-top: 10px;
 	color: blue;
+	overflow: scroll;
 }
 
-.list li {
+li {
 	margin-left: 10px;
 	list-style: circle;
 	list-style-position: inside;
 }
 
-.list1 .item1 {
+.done {
 	text-decoration: line-through;
 	list-style: disc;
 	list-style-position: inside;
 	color: rgba(0,0,0,0.3);
-}
-
-.list3 {
-	display: none;
-}
-
-.list4 {
-	display: none;
-}
-
-.item7 {
-	display: none;
-}
-
-.item6 {
-	display: none;
-}
-
-.item5 {
-	display: none;
-}
-
-.item4 {
-	display: none;
 }
